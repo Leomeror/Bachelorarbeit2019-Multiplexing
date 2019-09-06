@@ -42,7 +42,10 @@ macro "BachelorMacro" {
 	//run("Invert", "stack");
 	
 	setTool("rectangle");
-	waitForUser("Wählen Sie ein Rechteck aus,\n anhand dessen \n aligniert werden soll und klicken Sie dann auf \"Ok.\"");
+	waitForUser("Wählen Sie ein Rechteck aus,\nanhand dessen \naligniert werden soll und klicken Sie dann auf \"Ok.\"");
+	while(selectionType()<=-1) {
+		waitForUser("Sie haben noch kein Rechteck ausgewählt. \n \nWählen Sie ein Rechteck aus,\nanhand dessen \naligniert werden soll und klicken Sie dann auf \"Ok.\"");
+	}
 	//reference slice übertragen
 	refSlice = getSliceNumber();
 	//makeRectangle(1208, 438, 138, 198);
