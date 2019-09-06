@@ -9,3 +9,5 @@ Um das Macro (in diesem Repo als "BachelorMacro.ijm") zu benutzen, laden Sie es 
 Dieses Macro ist für die Darstellung von Multiplex-immunhistochemisch-gefärbtem Gewebe gedacht, welches mit einem Whole Slide Scanner eingelesen wurde. Die gescannten Bilder sollten zu dem nicht zu groß sein, da Fiji Bilder z.B. der Größe >2GB nicht problemlos öffnen kann. Falls nötig sollten aus gescannten Bildern Bereiche ausgewählt werden, die dann mit dem Macro angesehen werden können(dies wurde in dieser Bachelorarbeit so gemacht).
 
 Viel Spaß mit diesem Macro.
+
+Autor: Leon Metzger
